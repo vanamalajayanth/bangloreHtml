@@ -3,11 +3,19 @@
   <head>
     <title>banglore</title>
   </head>
-  <body>
+  <body
+    style="
+      text-align: center;
+      font-family: sans-serif;
+      color: dimgray;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 30px;
+    "
+  >
     <header>
       <h1
         style="
-          text-shadow: 2px 2px 35px black;
           text-align: center;
           text-decoration: underline dotted rgb(160, 160, 160);
           text-transform: uppercase;
@@ -25,14 +33,14 @@
         align-items: center;
         height: 70px;
         font-size: x-large;
-        color: 2e5077;
+        font-weight: 500;
       "
     >
       <img src="./images/logo.png" alt="logo" style="height: 150px;width:
       200px;""/>
-      <a href="#itHub" style="text-decoration: none">IT Hub</a>
       <a href="#weather" style="text-decoration: none">Pleasant Weather</a>
       <a href="#fashion" style="text-decoration: none">Fashion & Shopping</a>
+      <a href="#itHub" style="text-decoration: none">IT Hub</a>
       <a href="#parks" style="text-decoration: none">Gardens & Parks</a>
       <a href="#cafes" style="margin-right: 30px; text-decoration: none"
         >Food & Cafes</a
@@ -41,14 +49,16 @@
 
     <aside
       style="
-        background-color: #9aa6b2;
+        background-color: #8c9297;
         float: left;
+        color: black;
         width: 200px;
         border-radius: 5px;
         margin-top: 20px;
         font-size: 54px;
         font-family: ui-monospace;
         font-weight: 900;
+        line-height: 60px;
         text-align: center;
         height: 850px;
       "
@@ -71,65 +81,9 @@
         float: inline-start;
         width: 1550px;
         overflow: scroll;
-        text-align: center;
-        font-family: sans-serif;
-        color: dimgray;
-        font-size: 20px;
-        font-weight: 300;
-        line-height: 30px;
+        scroll-behavior: smooth;
       "
     >
-      <article
-        id="itHub"
-        style="
-          border-radius: 30px;
-          border: 10px solid rgb(166, 171, 175);
-          margin: 5px;
-          display: inline-block;
-        "
-      >
-        <figure>
-          <img
-            src="./images/itHub.png"
-            alt="it hub image"
-            style="height: 400px; width: 700px"
-          />
-          <figcaption><h3>IT Hub</h3></figcaption>
-        </figure>
-        <p>
-          Bangalore, known as the **Silicon Valley of India**, is the country's
-          leading **technology and innovation hub**. It hosts **global tech
-          giants, top startups, research institutions, and major IT parks** that
-          drive India's digital economy.
-        </p>
-        <ul style="text-align: left">
-          <li>
-            <strong>Electronic City</strong> – One of India's largest IT parks,
-            home to Infosys, Wipro, Tech Mahindra, and HCL.
-          </li>
-          <li>
-            <strong>Whitefield</strong> – A major tech and business district
-            with companies like IBM, Dell, SAP, and Accenture.
-          </li>
-          <li>
-            <strong>Manyata Tech Park</strong> – A massive IT campus housing
-            IBM, Cognizant, Nvidia, and Microsoft.
-          </li>
-          <li>
-            <strong>Embassy Tech Village</strong> – A high-end IT park in
-            Bellandur, home to Flipkart, Cisco, and JP Morgan.
-          </li>
-          <li>
-            <strong>Bagmane Tech Park</strong> – Hosts companies like Oracle,
-            Boeing, and SAP, making it a key IT hub.
-          </li>
-        </ul>
-        <p>
-          Bangalore continues to lead India’s digital revolution, attracting top
-          talent and global investments.
-        </p>
-      </article>
-
       <article
         id="weather"
         style="
@@ -244,6 +198,57 @@
           Whether you’re hunting for designer wear, handcrafted jewelry, or
           traditional Indian garments, Bangalore offers a fashion destination
           for everyone, combining global trends with local flair.
+        </p>
+      </article>
+
+      <article
+        id="itHub"
+        style="
+          border-radius: 30px;
+          border: 10px solid rgb(166, 171, 175);
+          margin: 5px;
+          display: inline-block;
+        "
+      >
+        <figure>
+          <img
+            src="./images/itHub.png"
+            alt="it hub image"
+            style="height: 400px; width: 700px"
+          />
+          <figcaption><h3>IT Hub</h3></figcaption>
+        </figure>
+        <p>
+          Bangalore, known as the Silicon Valley of India, is the country's
+          leading technology and innovation hub. It hosts global tech giants,
+          top startups, research institutions, and major IT parks that drive
+          India's digital economy.
+        </p>
+        <ul style="text-align: left">
+          <li>
+            <strong>Electronic City</strong> – One of India's largest IT parks,
+            home to Infosys, Wipro, Tech Mahindra, and HCL.
+          </li>
+          <li>
+            <strong>Whitefield</strong> – A major tech and business district
+            with companies like IBM, Dell, SAP, and Accenture.
+          </li>
+          <li>
+            <strong>Manyata Tech Park</strong> – A massive IT campus housing
+            IBM, Cognizant, Nvidia, and Microsoft.
+          </li>
+          <li>
+            <strong>Embassy Tech Village</strong> – A high-end IT park in
+            Bellandur, home to Flipkart, Cisco, and JP Morgan.
+          </li>
+          <li>
+            <strong>Bagmane Tech Park</strong> – Hosts companies like Oracle,
+            Boeing, and SAP, making it a key IT hub.
+          </li>
+        </ul>
+        <p>
+          Bangalore continues to lead India’s digital revolution, attracting top
+          talent and global investments.
         </p>
       </article>
 
@@ -372,7 +377,7 @@
         </p>
       </article>
     </main>
-    <footer>
+    <footer style="margin-top: 10px;">
       <p><strong>contact : </strong> +19 398324 4234 , hithisisme@gmial.com</p>
     </footer>
   </body>
